@@ -55,7 +55,40 @@ Open terminal and try execute some kali linux commands
 
 ```
 
-# Output:
+# Output 1:
+site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+
+<img width="1709" height="951" alt="image" src="https://github.com/user-attachments/assets/f07a3a32-7b99-43f9-80ba-1f3acc98dcc2" />
+
+# Output 2:
+filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+
+<img width="1708" height="954" alt="image" src="https://github.com/user-attachments/assets/8fe6a9d0-5e16-4642-b081-d17fbd6ebd68" />
+
+# Output 3:
+intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+
+<img width="1662" height="952" alt="image" src="https://github.com/user-attachments/assets/323169fa-aaf8-4dbe-b6f1-91973296a33e" />
+
+# Output 4:
+intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
+<img width="1709" height="951" alt="image" src="https://github.com/user-attachments/assets/208986f5-8996-4683-be5b-40df488ac5ce" />
+
+# Output 5:
+inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+
+<img width="1712" height="951" alt="image" src="https://github.com/user-attachments/assets/f896abd1-17e1-4afe-b5cc-937051a2e2ab" />
+
+# Output 5:
+link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
+<img width="1710" height="954" alt="image" src="https://github.com/user-attachments/assets/4936c055-393a-4e09-802a-7c9e71650caf" />
+
+# Output 6:
+cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+<img width="1720" height="949" alt="image" src="https://github.com/user-attachments/assets/7ff69836-3f96-4c79-b573-a6698386fee2" />
 
 
 # DNS Enumeration
@@ -86,6 +119,9 @@ Open terminal and try execute some kali linux commands
 
 
 ## OUTPUT:
+
+<img width="942" height="489" alt="image" src="https://github.com/user-attachments/assets/dbf2b5c5-bf08-4a4e-8ef7-a020ca76bcd6" />
+
 
 ## Architecture Diagram 
 ```
@@ -125,6 +161,9 @@ dnsenum example.com
 ```
 
 ## Output:
+<img width="952" height="845" alt="image" src="https://github.com/user-attachments/assets/8b953d46-9213-477d-8e86-462e9336c6f3" />
+
+<img width="948" height="720" alt="image" src="https://github.com/user-attachments/assets/ed14b8d2-2b94-4880-afbe-2c2d62fdc97f" />
 
 
 
@@ -137,7 +176,9 @@ dnsenum example.com
 smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 ```
   
- ## Output
+ ## Output:
+ <img width="944" height="301" alt="image" src="https://github.com/user-attachments/assets/d2ff93f8-bf06-4080-8bfe-762f4a8a1c1b" />
+
   
 
 
@@ -151,8 +192,7 @@ smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 nmap -p 25 --script smtp-enum-users.nse <target-ip>
 ```
 ## OUTPUT:
-
-
+<img width="944" height="84" alt="image" src="https://github.com/user-attachments/assets/977d4801-578c-4785-bec7-3c405165cccf" />
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
